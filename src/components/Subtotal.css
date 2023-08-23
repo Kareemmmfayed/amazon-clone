@@ -1,0 +1,18 @@
+.subtotal {
+    width: 240px;
+    background: lightgray;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.subtotal button {
+    margin-top: 16px;
+    padding: 5px;
+    border: none;
+    width: 100%;
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7a31 #846a29;
+    color: #111;
+    cursor: pointer;
+}

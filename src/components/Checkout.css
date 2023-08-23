@@ -16,3 +16,7 @@
     height: 180px;
     margin-bottom: 10px;
 }
+
+.checkout__left {
+    flex: 1;
+}

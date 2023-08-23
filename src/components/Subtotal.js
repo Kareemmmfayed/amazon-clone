@@ -1,10 +1,15 @@
 import React from 'react'
 import './Subtotal.css'
+import { useStateValue } from './StateProvider'
+import { getBasketTotal } from './reducer'
 
 function Subtotal() {
+    const [{basket}, dispatch] = useStateValue();
+
     return (
         <div className='subtotal'>
-            <button></button>
+            <p>Subtotal ({basket?.length} items): <strong>${getBasketTotal(basket)}</strong> </p>
+            <button>Proceed to Check Out</button>
         </div>
     )
 }
